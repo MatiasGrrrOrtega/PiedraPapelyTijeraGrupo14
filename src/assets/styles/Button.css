@@ -1,0 +1,14 @@
+.btn{
+    border: none;
+    outline: none;
+    background-color: rgba(127, 255, 212, 0.301); /*Se define el color del fondo del botón*/
+    cursor: pointer; /*Se muestra el puntero al pasar el cursor sobre el botón*/
+    transition: .5s; /*Transicion de 0.5s para el cambio de color del botón*/
+    text-decoration: none;
+}
+
+.btn:hover{
+    color: rgb(0, 0, 0); /*El botón cambia a color negro al interactuar con él*/
+    transform: scale(1.1); /*Aumento en escala 1.1 del botón*/
+    box-shadow: 13px 15px 15px black; /*Se define sombra del botón*/
+}

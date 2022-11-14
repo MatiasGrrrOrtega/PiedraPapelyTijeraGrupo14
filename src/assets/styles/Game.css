@@ -1,0 +1,57 @@
+.container{
+    display: flex;
+    flex-direction: column; /*Direccionamiento en columna*/
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3em; /*Tamaño de fuente de 48px*/
+}
+/*Contenedor centrado al inicio de la pagina*/
+
+.result{
+    border : 5px solid black; /*Borde negro de 5px en el cuadro de resultado*/
+    margin-bottom: 12px; /*Espacio de margen de 12px*/
+    width: 500px;
+    height: 300px;
+}
+
+.result p{
+    margin: 12px 0;
+}
+
+.jugadores{
+    display: flex;
+    justify-content: space-around; /*Espaciado presente entre los items de jugadores*/
+    align-items: center; /*Items centrados*/
+    width: 100%;
+}
+
+.maquina,
+.player{
+    border: 5px solid black; /*Borde de 5px en contenedor del jugador*/
+}
+
+.punto p{
+    margin: 12px; /*Espacio de margen de 12px para el puntaje*/
+}
+
+.maquina img,
+.player img{
+    width: 250px; /*Tamaño de 250px en imagen del jugador*/
+}
+
+.botones{
+    width: 50%;
+    display: flex;
+    flex-direction: row; /*Se coloca a los botones en fila*/
+    align-items: center; /*Botones centrados*/
+    justify-content: space-around; /*Espaciado presente entre los botones*/
+}
+
+.botones a{
+    text-decoration: none;
+    color: whitesmoke; /*Letra de los botones en color blanco*/
+    margin: 13px 0;
+    font-size: 25px; /*Tamaño de 25px en letra de los botones*/
+    padding: 10px; /*Relleno de 10px en letra de los botones*/
+}

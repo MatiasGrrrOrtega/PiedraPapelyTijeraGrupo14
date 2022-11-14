@@ -1,0 +1,34 @@
+.container-inicio{
+    display: flex;
+    flex-direction: column; /*Direccionamiento en columna*/
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 70vw; /*70% de ancho de pantalla ocupado*/
+}
+/*Contenedor centrado con margen automatico*/
+
+.container-inicio img{
+    text-align: center; /*Imagen centrada*/
+    width: 250px; /*ancho de 250px*/
+    height: 250px; /*alto de 250px*/
+}
+
+.botones-home{
+    display: flex;
+    flex-direction: column; /*Se coloca a los botones en colunma*/
+    align-items: center;
+    justify-content: center;
+    /*Botones centrados*/
+}
+
+.botones-home a{
+    text-decoration: none;
+    color: whitesmoke; /*Botones de color blanco*/
+    font-size: 25px; /*Tamaño de letra de 25px en botones*/
+    margin: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    /*margen de 20% por izquierda y derecha*/
+    padding: 10px; /*Relleno de 10px en letra de los botones*/
+}

@@ -1,0 +1,62 @@
+.container-team{
+    width: 90vw; /*90% de ancho de pantalla ocupado*/
+    margin: 0 auto 30px auto;
+    display: flex;
+    flex-direction: column; /*Direccionamiento en columna*/
+    align-items: center; 
+}
+/*Contenedor centrado*/
+
+.team{
+    display: flex;
+    flex-wrap: wrap; /*Items alineados en varias lineas*/
+    align-items: center; /*Items centrados*/
+    justify-content: space-around; /*Espaciado presente entre los items de Team*/
+}
+
+.NyF{
+    width: 300px; /*Anchura de 300px para nombre y foto*/
+    font-size: 1em; /*Tamaño de letra de 16 px*/
+    text-align: center; /*Texto centrado*/
+    margin: 12px 12px; /*Margen de 12px X 12px*/
+    border-radius: 45%; /*45% de borde redondeado*/
+    transition: .7s box-shadow ease-in-out; /*Transicion de 0.7s para aparición de sombra*/
+}
+
+.NyF img{
+    width: 100%; /*anchura de 100% en imagen*/
+    border-radius: 50%; /*45% de borde redondeado en imagen*/
+}
+
+.NyF:hover{
+    box-shadow: 0px 0px 1em 1.3em hsla(0, 0%, 0%, 0.466); /*Tamaño y color de sombra*/
+}
+
+.perfil-github{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    /*Items y contenido centrados*/
+    font-size: 1.55em; /*Tamaño de letra de 24,8px*/
+    margin-left: 40%;
+    margin-right: 40%;
+    /*margen de 40% por izquierda y derecha*/
+    padding: 10px; /*Relleno de 10px*/
+    font-weight: bold; /*Letra en negrita*/
+    font-family: 'Times New Roman', Times, serif; /*Fuentes "Times New Roman", "Times" y "serif" para las letras*/
+    color: whitesmoke; /*Color de letra blanco*/
+}
+
+.boton-team a{
+    text-align: center; /*Letra de botón centrado*/
+    text-decoration: none;
+    color: whitesmoke; /*Color de letra blanco*/
+    font-size: 25px; /*Tamaño de 25px en letra*/
+    margin: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    /*margen de 20% por izquierda y derecha*/
+    padding: 10px; /*Relleno de 10px en letra de los botones*/
+}
+
